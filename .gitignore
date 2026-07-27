@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+.env
+.DS_Store
+*.pyc
+.neurology_agent_state.json
+papers_pdf/

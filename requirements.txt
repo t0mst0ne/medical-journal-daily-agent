@@ -1,0 +1,7 @@
+cloudscraper
+beautifulsoup4
+google-generativeai
+python-dotenv
+feedparser
+lxml
+tenacity
