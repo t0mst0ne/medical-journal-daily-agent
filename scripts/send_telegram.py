@@ -35,10 +35,12 @@ def send_message(token: str, chat_id: str, text: str) -> None:
                 resp.read()
             return
         except urllib.error.HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace")
             if exc.code == 429 and attempt == 0:
-                retry_after = json.loads(exc.read()).get("parameters", {}).get("retry_after", 5)
+                retry_after = json.loads(body).get("parameters", {}).get("retry_after", 5)
                 time.sleep(retry_after + 1)
                 continue
+            print(f"Telegram API error {exc.code}: {body}", file=sys.stderr)
             raise
 
 
