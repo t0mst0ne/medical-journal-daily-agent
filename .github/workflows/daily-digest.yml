@@ -55,9 +55,3 @@ jobs:
             git commit -m "Daily reports $(date -u +%F)"
             git push
           fi
-
-      - name: Send to Telegram
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scripts/send_telegram.py
