@@ -1,0 +1,24 @@
+# Stroke 每日文獻導讀 - 2026-11-10
+
+- 摘要模型：`gemini/gemini-2.5-flash-lite`
+- 發現：1 篇，完成：0 篇，略過：0 篇
+- Token：輸入 0，輸出 0，估算費用 $0.000000
+
+## 執行錯誤
+
+- Stroke Triggered by Respiratory Viruses: Ecological Study of Temporal and Spatiotemporal Associations: GEMINI_API_KEY is not set
+
+## Stroke Triggered by Respiratory Viruses: Ecological Study of Temporal and Spatiotemporal Associations
+
+**期刊**: Stroke
+**原文標題**: Stroke Triggered by Respiratory Viruses: Ecological Study of Temporal and Spatiotemporal Associations
+**DOI**: 10.1161/STROKEAHA.126.056058
+**PMID**: 43001457（來源：pubmed）
+**發布日期**: 2026-11-09
+**文章連結**: https://www.ahajournals.org/doi/abs/10.1161/STROKEAHA.126.056058?af=R
+**Full PDF**: https://www.ahajournals.org/doi/pdf/10.1161/STROKEAHA.126.056058
+**本地 PDF**: 未下載（可能需要期刊訂閱或登入權限）
+
+**Abstract 繁體中文翻譯**:
+
+未產生翻譯。
